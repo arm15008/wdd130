@@ -10,6 +10,16 @@
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 nav a {
     text-decoration: none;
     text-align: center;
@@ -30,6 +40,10 @@ main section img {
 
 h4 {
     color: #45503B;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #hero-box {
@@ -123,7 +137,7 @@ body {
 }
 header {
     display: grid;
-    grid-template-columns: 150px;
+    grid-template-columns: 150px auto;
     background-color:#404E7C;
 }
 h2 {
