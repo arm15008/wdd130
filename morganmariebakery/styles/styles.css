@@ -152,6 +152,22 @@ nav a:hover {
   grid-template-columns: repeat(10, 1fr);
 }
 
+.cookies_grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+.pastries_grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+.bread_grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+
+
 #home_message {
   height: 725px;
   background-color: #F4769B;
@@ -178,6 +194,27 @@ nav a:hover {
   grid-column: 1/11;
   grid-row: 4/9;
 }
+
+#cookies {
+    height: 725px;
+    background-color: #F4769B;
+    grid-column: 1/11;
+    grid-row: 4/9;
+  }
+
+#pastries {
+    height: 725px;
+    background-color: #F4769B;
+    grid-column: 1/11;
+    grid-row: 4/9;
+  }
+
+#bread {
+    height: 725px;
+    background-color: #F4769B;
+    grid-column: 1/11;
+    grid-row: 4/9;
+  }
 
 .cupcake {
   border: 10px solid #C49E85;
